@@ -59,7 +59,7 @@ const thoughtSchema = new Schema(
 );
 
 thoughtSchema.virtual('reactionCount').get(function () {
-    return this.reactions.length;
+    return this.reaction.length;
 });
 
 module.exports = mongoose.models.Thought || model('Thought', thoughtSchema);

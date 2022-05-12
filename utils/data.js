@@ -1,19 +1,26 @@
 const userData = [{
     username: "anthonypacella",
-    email: "anthonypacella@gmail.com"
+    email: "anthonypacella@gmail.com",
+    thoughts: [],
+    friends: []
 },
 {
-    username: "bobsmith",
-    email: "bobsmith@gmail.com"
-}]
+    username: "bobjones",
+    email: "bobjones@gmail.com",
+    thoughts: [],
+    friends: []
+}
+]
 
 const thoughtData = [{
-    thought: "This is pretty cool.",
-    username: "anthonypacella" 
+    thoughtText: "This is very cool",
+    username: "anthonypacella",
+    reaction: [],
 },
 {
-    thought: "How strange",
-    username: "bobsmith"
+    thoughtText: "This is very strange",
+    username: "bobjones",
+    reaction: [],
 }]
 
 module.exports = { userData, thoughtData };
